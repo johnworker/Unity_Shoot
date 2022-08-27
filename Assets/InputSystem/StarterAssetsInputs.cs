@@ -79,6 +79,10 @@ namespace StarterAssets
 		{
 			this.aim = newAimState;
 		}
+		public void ShootInput(bool newShootState)
+		{
+			this.shoot = newShootState;
+		}
 
 		private void OnApplicationFocus(bool hasFocus)
 		{
